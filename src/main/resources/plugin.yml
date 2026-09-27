@@ -1,0 +1,17 @@
+name: PowerItem
+version: '1.0.0'
+main: com.poweritem.PowerItem
+api-version: '1.21'
+description: Give one specific item extra damage, instant kill, or forced totem pop.
+
+commands:
+  poweritem:
+    description: Give the exact item in your hand special powers
+    usage: /<command> <damage|mode|clear|info>
+    aliases: [pi]
+    permission: poweritem.use
+
+permissions:
+  poweritem.use:
+    description: Lets you use /poweritem
+    default: op
